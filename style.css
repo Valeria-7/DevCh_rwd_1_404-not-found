@@ -67,6 +67,11 @@ body {
   background: #333333;
   border: none;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #4d4c4c;
 }
 
 .footer {
@@ -81,4 +86,37 @@ body {
 .footer-link {
   color: #bdbdbd;
   text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-link:hover {
+  color: #7e7b7b;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    padding: 20px 24px 24px 24px;
+  }
+
+  .content {
+    margin-top: 64px;
+    margin-bottom: 114px;
+  }
+
+  .content-title {
+    font-size: 48px;
+    line-height: 71px;
+  }
+
+  .content-description {
+    font-size: 18px;
+    line-height: 27px;
+  }
 }
