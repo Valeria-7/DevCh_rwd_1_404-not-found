@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+  color: #333333;
+}
+
+.container {
+  padding: 40px 77px 24px 40px;
+}
+
+.content {
+  margin-top: 200px;
+  margin-bottom: 308px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  max-width: 540px;
+  width: 100%;
+}
+
+.text-content {
+  max-width: 586px;
+  width: 100%;
+}
+
+.main-title {
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+}
+
+.content-title {
+  margin-bottom: 36px;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+}
+
+.content-description {
+  margin-bottom: 64px;
+  max-width: 381px;
+  width: 100%;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+
+.button {
+  padding: 24px 43px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #333333;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+.footer-link {
+  color: #bdbdbd;
+  text-decoration: none;
+}
